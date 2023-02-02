@@ -6,7 +6,7 @@
 
 .main{
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 1366px;
+    max-width: 1440px;
 }
 
 header{
@@ -16,6 +16,46 @@ header{
 }
 
 .containerHeader{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
 
+.logo{
+    width: 15%;
+    margin-left: 25px;
+}
+
+.headerTitle{
+    width: 70%;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.contacts{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+footer{
+    height: 35px;
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    color: #FFF;
+    font-size: 12px;
+}
+
+.containerFooter{
+    margin-left: 25px;
 }
 

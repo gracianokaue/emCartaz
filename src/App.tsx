@@ -1,5 +1,10 @@
 import styles from './App.module.css';
 
+import logoImg from './assets/logo.png'
+import portImg from './assets/github.png'
+import gitImg from './assets/github.png'
+import linkedImg from './assets/linkedin.png'
+
 const App = ()=> {
 
 
@@ -7,10 +12,43 @@ const App = ()=> {
 
   <div className={styles.main}> 
     <header>
+      
       <div className={styles.containerHeader}>
         
+        <div className={styles.logo}>
+          <a><img src= {logoImg}></img></a>
+        </div>
+
+        <div className={styles.headerTitle}>Filmes em cartaz hoje</div>
+
+        <div className={styles.contacts}>
+
+          <div className={styles.contactsPort}>
+            <a><img src= {portImg}></img></a>
+          </div>
+
+          <div className={styles.contactsIn}>
+            <a><img src= {linkedImg}></img></a>
+          </div>
+
+          <div className={styles.contactsGit}>
+            <a><img src= {gitImg}></img></a>
+          </div>
+
+        </div>
+        
       </div>
+
     </header>
+
+    <main>
+      ...
+    </main>
+
+    <footer>
+      <div className={styles.containerFooter}>Projeto Em Cartaz, por Kauê Graciano - 2023</div>
+    </footer>
+
   </div>
 );
 }
