@@ -1,4 +1,6 @@
+import { useState, useEffect } from 'react';
 import styles from './App.module.css';
+import {Movie} from './types/Movie';
 
 import logoImg from './assets/logo.png'
 import portImg from './assets/logo32x32black.png'
@@ -7,6 +9,23 @@ import linkedImg from './assets/linkedin.png'
 
 const App = ()=> {
 
+  const [movies, setMovies] = useState<Movie[]>([]);
+
+  useEffect(()=>{
+    loadMovies();
+  }, []);
+
+  const loadMovies = ()=>{
+    fetch('https://api.b7web.com.br/cinema/')
+
+    .then((response)=>{
+      return response.json();
+    })
+
+    .then((json)=>{
+      setMovies(json);
+    });
+  }
 
   return( 
 
@@ -42,7 +61,17 @@ const App = ()=> {
     </header>
 
     <main>
-      ...
+
+      <div className={styles.containerGrid}>
+        {movies.map((item, index)=>(
+          <div className={styles.movieItem}>
+            <img src={item.avatar} className={styles.movieAvatar} />
+            <br />
+            {item.titulo}
+          </div>
+        ))}
+      </div>
+
     </main>
 
     <footer>
