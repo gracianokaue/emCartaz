@@ -1,7 +1,7 @@
 import styles from './App.module.css';
 
 import logoImg from './assets/logo.png'
-import portImg from './assets/github.png'
+import portImg from './assets/logo32x32black.png'
 import gitImg from './assets/github.png'
 import linkedImg from './assets/linkedin.png'
 
@@ -28,11 +28,11 @@ const App = ()=> {
           </div>
 
           <div className={styles.contactsIn}>
-            <a><img src= {linkedImg}></img></a>
+            <a href='https://www.linkedin.com/in/gracianokaue'><img src= {linkedImg}></img></a>
           </div>
 
           <div className={styles.contactsGit}>
-            <a><img src= {gitImg}></img></a>
+            <a href='https://github.com/gracianokaue'><img src= {gitImg}></img></a>
           </div>
 
         </div>

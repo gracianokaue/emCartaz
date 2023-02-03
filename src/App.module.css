@@ -26,6 +26,10 @@ header{
     margin-left: 25px;
 }
 
+.logo img{
+    cursor: pointer;
+}
+
 .headerTitle{
     width: 70%;
     text-transform: uppercase;
@@ -44,6 +48,14 @@ header{
     align-items: center;
     margin-left: 25px;
     margin-right: 25px;
+}
+
+.contactsPort img{
+    border-radius: 16px;
+}
+
+.contactsPort, .contactsIn, .contactsGit{
+    cursor: pointer;
 }
 
 footer{
