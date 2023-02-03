@@ -74,9 +74,7 @@ const App = ()=> {
 
     </main>
 
-    <footer>
-      <div className={styles.containerFooter}>Projeto Em Cartaz, por Kauê Graciano - 2023</div>
-    </footer>
+    <footer>Projeto Em Cartaz, por Kauê Graciano - 2023</footer>
 
   </div>
 );
