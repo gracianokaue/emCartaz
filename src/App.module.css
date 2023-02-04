@@ -32,10 +32,6 @@ header{
     margin-left: 25px;
 }
 
-.logo img{
-    cursor: pointer;
-}
-
 .headerTitle{
     width: 70%;
     text-transform: uppercase;
