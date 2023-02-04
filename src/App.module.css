@@ -118,17 +118,6 @@ footer{
     .contactsGit{
         display: none;
     }
-}
-
-@media(max-width:579px){
-    
-    .contactsGit{
-        display: none;
-    }
-
-    .headerTitle{
-        font-size: 14px;
-    }
 
     .movieItem img{
         width: 120px;
@@ -138,5 +127,4 @@ footer{
     .movieItem{
         width: 120px;
     }
-
 }
