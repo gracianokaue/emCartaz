@@ -1,1 +1,1 @@
-Projeto Em Cartaz, desenvolvido por Kauê Graciano em 2023.
+Projeto Em Cartaz versão 1.00, desenvolvido por Kauê Graciano em 2023.
