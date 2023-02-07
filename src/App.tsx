@@ -38,7 +38,7 @@ const App = ()=> {
           <a><img src= {logoImg}></img></a>
         </div>
 
-        <div className={styles.headerTitle}>Filmes em cartaz hoje</div>
+        <div className={styles.headerTitle}>Em Cartaz</div>
 
         <div className={styles.contacts}>
 

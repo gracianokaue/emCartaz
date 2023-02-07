@@ -115,6 +115,10 @@ footer{
         display: none;
     }
 
+    .contactsIn{
+        display: none;
+    }
+
     .movieItem img{
         width: 120px;
         height: 180px;
